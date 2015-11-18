@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include flat_sales *.css
+recursive-include flat_sales *.csv
+recursive-include flat_sales *.html
+recursive-include flat_sales *.ico
+recursive-include flat_sales *.js
+recursive-include flat_sales *.json
+recursive-include flat_sales *.md
+recursive-include flat_sales *.png
+recursive-include flat_sales *.py
+recursive-include flat_sales *.svg
+recursive-include flat_sales *.txt
+recursive-exclude flat_sales *.pyc
